@@ -4,12 +4,14 @@ int main()
 {
         char op;
         float num1, num2;
-
+cout<<"Programm was made by Great Anton Zhabotinskyi and GREAT AhmaDICK Nehlavi";
         cout << "Enter operator: +, -, *, /: ";
         cin >> op;
 
-        cout << "Enter two operands: ";
-        cin >> num1 >> num2;
+        cout << "Enter 1 number: ";
+        cin >> num1 ;  
+         cout << "Enter 2 number: ";
+        cin>>num2;
 
         switch (op) {
 
@@ -31,7 +33,7 @@ int main()
 
         default:
             
-            cout << "Error! operator is not correct";
+            cout << "Error! operator is Wrong";
             break;
         }
 
